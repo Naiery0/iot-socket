@@ -15,14 +15,32 @@ iot tcp/ip 소켓통신
 - sudo apt install openssh-server
 - putty에서 우분투로 연결
 - sudo apt update
+- 상단바 우클릭 -> Change Setting -> Window-Appearance -> 폰트 크기 원하는 대로
 
 ### 폴더 생성
+<img src="./image/image01.png" width="500">
 - mkdir Work
 - cd Work
 - mkdir Socket
 
 ### 편집기 설정
 - sudo nano /etc/nanorc
-- set autoindent, set linenumbers, set tapsize 활성화, tapsize는 3으로 변경
+- set autoindent, set linenumbers, set tapsize 활성화, tapsize는 3으로 변경 (나는 4로 했지만)
 - 컨트 s, 컨트 x 
 
+### 파일 다루기
+- touch text.txt -> 파일 생성
+- nano text.txt -> 파일 편집
+- cat text.txt -> 파일 내용 보기
+- cp text.txt text1.text -> 파일 카피
+- mv ./text.txt ../ -> 이전 경로로 파일 이동
+
+
+### c언어 시작
+- nano main.c
+- 간단한 출력문 작성 후 저장
+- putty 상단바 우클릭 -> Duplicate Session
+- sudo apt install gcc
+- gcc main.c -> 실행파일 'a.out'이 생성됨.
+- ./a.out 입력 시 실행
+- gcc main.c -o main -> 실행파일 'main'이 생성됨.
