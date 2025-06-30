@@ -44,3 +44,8 @@ iot tcp/ip 소켓통신
 - gcc main.c -> 실행파일 'a.out'이 생성됨.
 - ./a.out 입력 시 실행
 - gcc main.c -o main -> 실행파일 'main'이 생성됨.
+
+### 공유폴더 생성
+- 깃허브 업로드 편의를 위해 리포지토리 로컬 패스에 설정
+
+- ->[참고 링크](https://developern.tistory.com/entry/VMware-ubuntu-vm%EC%9D%98-%EA%B3%B5%EC%9C%A0%ED%8F%B4%EB%8D%94-Shared-Folders-%EC%84%A4%EC%A0%95-%EB%B0%A9%EB%B2%95)
