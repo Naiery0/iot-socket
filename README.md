@@ -1,6 +1,7 @@
 # iot-socket
 iot tcp/ip 소켓통신
 
+## 1일차
 ### 필요한 설치
 - vmware 설치 : 구글에 `vmware-workstation-full-17.6.3-24583834.exe(401.43 mb)` 검색 [여기로](https://www.fileeagle.com/software/662/VMware-Workstation-Pro/17.6.3)
 - putty 설치 [여기로](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
@@ -49,3 +50,6 @@ iot tcp/ip 소켓통신
 - 깃허브 업로드 편의를 위해 리포지토리 로컬 패스에 설정
 
 - ->[참고 링크](https://developern.tistory.com/entry/VMware-ubuntu-vm%EC%9D%98-%EA%B3%B5%EC%9C%A0%ED%8F%B4%EB%8D%94-Shared-Folders-%EC%84%A4%EC%A0%95-%EB%B0%A9%EB%B2%95)
+
+
+## 2일차

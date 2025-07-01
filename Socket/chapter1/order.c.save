@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+void main(){
+
+	int n = 0x1234567;
+	char *pn = &n;
+	printf("1st: %p, %#x\n", &(*pn), *pn);
+	printf("2st: %p, %#x\n", &(*(pn+1)), *(pn+1));
+	printf("3st: %p, %#x\n", &(*(pn+2)), *(pn+2));
+	printf("4st: %p, %#x\n", &(*(pn+3)), *(pn+3
+	));
+
+	return;
+}
