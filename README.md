@@ -2,6 +2,7 @@
 iot tcp/ip 소켓통신
 
 ## 1일차
+### ubuntu 환경 구축
 ### 필요한 설치
 - vmware 설치 : 구글에 `vmware-workstation-full-17.6.3-24583834.exe(401.43 mb)` 검색 [여기로](https://www.fileeagle.com/software/662/VMware-Workstation-Pro/17.6.3)
 - putty 설치 [여기로](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
@@ -53,3 +54,23 @@ iot tcp/ip 소켓통신
 
 
 ## 2일차
+### Socket 통신
+#### Scoket 통신
+- **소켓통신**은 이더넷 기반 실시간 데이터 전송방식.
+- TCP 또는 UDP를 사용하는 양방향 통신.
+
+#### 네트워크
+- 두 대의 기기를 연결하여 서로 통신할 수 있도록 한다.
+
+#### 소켓
+- 전송 계층과 응용 프로그램 사이에서 인터페이스 역할을 하며, 서로 떨어진 두 호스트를 연결해 준다.
+
+#### IP
+- 인터넷 상에서 컴퓨터를 구분하는 주소
+
+#### 포트
+- 소켓을 구분하는 용도
+- 컴퓨터까지는 IP를, 프로그램으로는 포트를 통해 도달
+
+
+

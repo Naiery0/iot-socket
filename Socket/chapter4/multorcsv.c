@@ -80,13 +80,11 @@ int main(int argc, char *argv[])
             	write(clnt_sock, buf, str_len);
          	   	write(fds[1], buf, str_len);
         	}
-
         	close(clnt_sock);
         	puts("client disconnected...");
         	return 0;
     	}
-    	else
-        	close(clnt_sock);
+    	else close(clnt_sock);
 		}
 		close(serv_sock);
 	return 0;
